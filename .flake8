@@ -1,0 +1,16 @@
+[flake8]
+exclude = venv,
+    __pycache__
+inline-quotes = double
+import-order-style = google
+extension =
+    MC1 = project.flake8.checkers:flake8-import-order
+    MC2 = project.flake8.checkers:flake8-quotes
+    MC3 = project.flake8.checkers:flake8-commas
+    MC4 = project.flake8.checkers:pep8-naming
+    MC5 = project.flake8.checkers:flake8-variables-names
+    MC5 = project.flake8.checkers:flake8-absolute-import
+    MC6 = project.flake8.checkers:flake8-comments
+    MC7 = project.flake8.checkers:flake8-quotes
+    MC8 = project.flake8.checkers:flake8-print
+    MC9 = project.flake8.checkers:flake8-fixme
